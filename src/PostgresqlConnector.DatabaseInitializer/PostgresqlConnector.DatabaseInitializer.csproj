@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <WarningsAsErrors>True</WarningsAsErrors>
+        <RootNamespace>PostgresqlConnector.DatabaseInitializer</RootNamespace>
+        
+        <PackageId>DatabaseInitializer</PackageId>
+        <PackageVersion>1.0.0</PackageVersion>
+        <Title>DatabaseInitializer</Title>
+        <Authors>vvolchenkov</Authors>
+        <Description>Creates a postgresql database based on entities</Description>
+        <PackageTags>postgresql databaseInitializer dapper</PackageTags>
+        
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Npgsql" Version="5.0.4" />
+        <PackageReference Include="Dapper" Version="2.0.78" />
+        <PackageReference Include="Dapper.Contrib" Version="2.0.78" />
+        <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+        <PackageReference Include="StyleCop.Analyzers" Version="1.1.118" />
+    </ItemGroup>
+</Project>

@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostgresqlConnector.DapperGenericRepository", "PostgresqlConnector.DapperGenericRepository\PostgresqlConnector.DapperGenericRepository.csproj", "{8C065298-9D8B-4C0F-825E-8AEE5A334ECA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostgresqlConnector.DatabaseInitializer", "PostgresqlConnector.DatabaseInitializer\PostgresqlConnector.DatabaseInitializer.csproj", "{CE6ABEBC-7C29-48DF-8120-099B5EC6E150}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C065298-9D8B-4C0F-825E-8AEE5A334ECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C065298-9D8B-4C0F-825E-8AEE5A334ECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C065298-9D8B-4C0F-825E-8AEE5A334ECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C065298-9D8B-4C0F-825E-8AEE5A334ECA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE6ABEBC-7C29-48DF-8120-099B5EC6E150}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE6ABEBC-7C29-48DF-8120-099B5EC6E150}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE6ABEBC-7C29-48DF-8120-099B5EC6E150}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE6ABEBC-7C29-48DF-8120-099B5EC6E150}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
